@@ -1,0 +1,53 @@
+.CardList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Card {
+  background: #A7AC38;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em 0;
+  margin: 2em 0;
+  color: #FFF;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+}
+
+.Card button {
+  position: absolute;
+  right: 0;
+}
+
+.Card button:hover, .Card button:active {
+  cursor: pointer;
+}
+
+.Card h2 {
+  text-transform: uppercase;
+}
+
+.Card--top {
+  display: flex;
+  position: relative;
+}
+
+.Card--bottom {
+  text-align: left;
+}
+
+.Card--bottom span {
+  font-weight: bold;
+}
+
+.CardList--filter {
+  padding: 1em;
+  border-bottom: 2px solid #C4A53E;
+  width: 100%;
+}
+
+input[type="radio"] {
+  margin: 0 0.5em 0 2em;
+}
